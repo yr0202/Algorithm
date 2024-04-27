@@ -11,9 +11,6 @@ public class Main {
         char[] first = str1.toCharArray();
         char[] second = str2.toCharArray();
 
-        int del = 0;
-
-        String addStr = "";
 
         for (int i=0; i<str1.length();i++){
             for (int j=0; j<str2.length();j++){
@@ -37,10 +34,7 @@ public class Main {
                 second_length++;
             }
         }
-
-
         System.out.println(first_length+second_length);
-
-
+        
     }
 }
