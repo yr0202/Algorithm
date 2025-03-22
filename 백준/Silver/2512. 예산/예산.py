@@ -1,5 +1,3 @@
-import sys
-
 N = int(input()) 
 req = list(map(int, input().split()))
 M = int(input()) 
